@@ -24,6 +24,9 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation files('lib/json-simple-1.1.1.jar')
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	implementation 'org.projectlombok:lombok:1.18.24'
+	
 }
 
 tasks.named('test') {
